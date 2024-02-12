@@ -31,3 +31,10 @@ h2 {
     justify-content: left;
     margin-left: 3%;
 }
+
+/* ABOUT */
+#about-section {
+    color: black;
+    font-family: Karla, sans-serif;
+    margin-left: 3%;
+}
