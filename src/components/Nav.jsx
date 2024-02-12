@@ -4,8 +4,8 @@ function Nav() {
     const currentPage = useLocation().pathname;
 
     return (
-        <ul className="nav nav-tabs">
-            <li className="nav-item">
+        <div className="nav nav-tabs">
+            <p className="nav-option">
                 <Link
                     to="/"
                     // This is a conditional (ternary) operator that checks to see if the current page is "Home"
@@ -14,8 +14,8 @@ function Nav() {
                 >
                     Home
                 </Link>
-            </li>
-            <li className="nav-item">
+            </p>
+            <p className="nav-option">
                 <Link
                     to="/Projects"
                     // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -23,8 +23,8 @@ function Nav() {
                 >
                     Projects
                 </Link>
-            </li>
-            <li className="nav-item">
+            </p>
+            <p className="nav-option">
                 <Link
                     to="/Contact"
                     // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -32,8 +32,8 @@ function Nav() {
                 >
                     Contact
                 </Link>
-            </li>
-        </ul>
+            </p>
+        </div>
     );
 }
 
