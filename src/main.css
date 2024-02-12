@@ -1,6 +1,7 @@
 /* ROOT / BODY */
 body {
-    background-color: rgba(179, 209, 134, 0.764);
+    background-color: rgba(163, 187, 127, 0.791);
+    color: rgb(255, 244, 226);
     font-family: Unica One, sans-serif;
 }
 
@@ -13,35 +14,59 @@ body {
 
 .nav-option,
 .nav-link {
-    color: black;
+    color: rgba(41, 78, 45, 0.776);
     font-family: Karla, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin: 0%;
     text-decoration: none;
 }
 
 /* HEADERS */
 h1 {
-    color: black;
     display: flex;
+    font-size: 3rem;
     justify-content: center;
 }
 
 h2 {
-    color: black;
     display: flex;
+    font-size: 2rem;
     justify-content: left;
     margin-left: 3%;
 }
 
 /* ABOUT */
 #about-section {
-    color: black;
     font-family: Karla, sans-serif;
     margin-left: 3%;
 }
 
+/* PROJECTS */
+h3 {
+    display: flex;
+    font-family: Karla, sans-serif;
+    font-weight: 1000;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+
+.group-img-section {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+img {
+    width: 35%;
+    border-color: rgba(41, 78, 45, 0.776);
+    border-width: 15px;
+    border-radius: 20px;
+    border-style:double
+}
+
 /* CONTACT */
 #contact-section {
-    color: black;
     font-family: Karla, sans-serif;
     margin-left: 3%;
 }
