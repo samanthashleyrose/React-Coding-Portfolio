@@ -1,3 +1,9 @@
+/* ROOT / BODY */
+body {
+    background-color: rgba(179, 209, 134, 0.764);
+    font-family: Unica One, sans-serif;
+}
+
 /* NAV */
 .nav-tabs {
     display: inline-flex;
@@ -8,18 +14,20 @@
 .nav-option,
 .nav-link {
     color: black;
+    font-family: Karla, sans-serif;
     text-decoration: none;
 }
 
 /* HEADERS */
 h1 {
+    color: black;
     display: flex;
     justify-content: center;
-    color: black;
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
     color: black;
+    display: flex;
+    justify-content: left;
+    margin-left: 3%;
 }
