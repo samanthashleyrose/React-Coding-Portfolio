@@ -72,9 +72,11 @@ img {
 }
 
 /* CONTACT */
-#contact-section {
+.contact-section {
     font-family: Karla, sans-serif;
-    margin-left: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration: none;
 }
 
 /* RESUME */
