@@ -38,13 +38,14 @@ h2 {
     display: flex;
     font-size: 2rem;
     justify-content: left;
-    margin-left: 3%;
+    margin-left: 5%;
 }
 
 /* ABOUT */
 #about-section {
     font-family: Karla, sans-serif;
-    margin-left: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* PROJECTS */
