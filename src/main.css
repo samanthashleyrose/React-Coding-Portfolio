@@ -57,10 +57,13 @@ h3 {
     justify-content: center;
 }
 
-.group-img-section {
+.group-img-section,
+.solo-img-row-1,
+.solo-img-row-2 {
     display: inline-flex;
     justify-content: space-evenly;
     width: 100%;
+    height: 250px;
 }
 
 img {
