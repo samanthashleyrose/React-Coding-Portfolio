@@ -62,11 +62,21 @@ img {
     border-color: rgba(41, 78, 45, 0.776);
     border-width: 15px;
     border-radius: 20px;
-    border-style:double
+    border-style: double;
 }
 
 /* CONTACT */
 #contact-section {
     font-family: Karla, sans-serif;
     margin-left: 3%;
+}
+
+/* FOOTER */
+.footer {
+    display: block;
+    text-align: center;
+}
+
+.footer-option {
+    border-style: none;
 }
