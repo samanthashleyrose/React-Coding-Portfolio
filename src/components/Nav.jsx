@@ -29,6 +29,14 @@ function Nav() {
                     Contact
                 </Link>
             </p>
+            <p className="nav-option">
+                <Link
+                    to="/Resume"
+                    className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
+                >
+                    Resume
+                </Link>
+            </p>
         </div>
     );
 }

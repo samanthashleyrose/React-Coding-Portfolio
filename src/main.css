@@ -71,6 +71,12 @@ img {
     margin-left: 3%;
 }
 
+/* RESUME */
+#resume-section {
+    font-family: Karla, sans-serif;
+    margin-left: 3%;
+}
+
 /* FOOTER */
 .footer {
     display: block;
