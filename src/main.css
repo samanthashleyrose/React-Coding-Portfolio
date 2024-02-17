@@ -25,6 +25,7 @@ body {
 .nav-link:active {
     color: rgb(28, 59, 31);
     font-weight: 900;
+    text-decoration: underline;
 }
 
 /* HEADERS */
@@ -135,9 +136,14 @@ img {
 }
 
 /* RESUME */
-#resume-section {
+.resume-section {
     font-family: Karla, sans-serif;
-    margin-left: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#download-resume {
+    text-align: center;
 }
 
 /* FOOTER */
