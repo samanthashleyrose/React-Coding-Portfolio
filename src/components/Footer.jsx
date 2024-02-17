@@ -7,16 +7,13 @@ function Footer() {
         <div className="footer">
             <h4>made with ❤</h4>
             <a href="https://github.com/samanthashleyrose?tab=repositories">
-                <img src="/assets/github-icon.png" alt="Github Icon" className="footer-option"/>
-                Github
+                <img src="/src/assets/imgs/github-icon.png" alt="Github Icon" className="footer-option"/>
             </a>
             <a href="">
-                <img src="/assets/LinkedIn-icon.png" alt="LinkedIn Icon" className="footer-option"/>
-                LinkedIn
+                <img src="/src/assets/imgs/linkedin-icon.png" alt="LinkedIn Icon" className="footer-option"/>
             </a>
             <a href="samantha.rose327@gmail.com">
-                <img src="/assets/LinkedIn-icon.png" alt="Gmail Icon" className="footer-option"/>
-                Gmail
+                <img src="/src/assets/imgs/gmail-icon.png" alt="Gmail Icon" className="footer-option"/>
             </a>
         </div>
     );
