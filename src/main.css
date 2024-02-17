@@ -91,7 +91,6 @@ img {
 }
 #message-label {
     margin-right: 2.2%;
-    width: 50%;
 }
 
 #name,
@@ -99,6 +98,7 @@ img {
     background-color: rgb(255, 244, 226);
     border: none;
     color: rgba(41, 78, 45, 0.776);
+    margin-right: 1%;
     margin-bottom: 1%;
     width: 25%;
 }
@@ -106,8 +106,21 @@ img {
     background-color: rgb(255, 244, 226);
     border: none;
     color: rgba(41, 78, 45, 0.776);
+    margin-right: 1%;
     height: 150px;
     width: 40%;
+}
+
+#name-div,
+#email-div,
+#message-div {
+    display: flex;
+}
+
+.error {
+    color: rgb(189, 7, 7);
+    padding-left: 1%;
+    margin: 0%;
 }
 
 #submit-btn {
