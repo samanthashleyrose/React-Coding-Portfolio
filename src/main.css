@@ -158,6 +158,13 @@ a {
     color: rgba(41, 78, 45, 0.776);
 }
 
+/* ERROR PAGE */
+#error-page {
+    font-family: Karla, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 /* FOOTER */
 .footer {
     display: block;
