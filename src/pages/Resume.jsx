@@ -4,15 +4,19 @@ export default function Resume() {
       <h2>Resume</h2>
       <div className="resume-section">
         <h3>Proficiencies</h3>
-        <ul>
-          <li>JavaScript</li>
-          <li>React.js</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Node.js</li>
-          <li>Express.js</li>
-        </ul>
-        <p id="download-resume">Download my resume: <a href="/src/assets/RESUME-2024-Samantha-Rose.pdf" download>Resume.pdf</a></p>
+        <div className="proficiencies">
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+          <ul>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+          </ul>
+        </div>
+        <p id="download-resume">Click to download my resume: <a href="/src/assets/pdf/RESUME-2024-Samantha-Rose.pdf" download>Resume.pdf</a></p>
       </div>
     </div>
   );
