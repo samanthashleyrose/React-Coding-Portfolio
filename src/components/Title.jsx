@@ -4,8 +4,9 @@ function Title() {
     const currentPage = useLocation().pathname;
 
     return (
-        <div className="title">
-            <h1>Samantha Rose</h1>
+        <div>
+            <h1 id="title">Samantha Rose</h1>
+            <h3 id="subtitle">Full Stack Web Developer</h3>
         </div>
     );
 }
