@@ -127,11 +127,11 @@ h3 {
 }
 
 #group-img-1 {
-    background-image: url(./assets/imgs/rooms-sc.png);
+    background-image: url(/assets/imgs/rooms-sc.png);
 }
 
 #group-img-2 {
-    background-image: url(./assets/imgs/Meal2Reel-Empty-SC.png);
+    background-image: url(/assets/imgs/Meal2Reel-Empty-SC.png);
 }
 
 img {
@@ -163,19 +163,19 @@ img {
 }
 
 #solo-img-1 {
-    background-image: url(./assets/imgs/Mandela-Effect-Challenge.png);
+    background-image: url(/assets/imgs/Mandela-Effect-Challenge.png);
 }
 
 #solo-img-2 {
-    background-image: url(./assets/imgs/LeeQuotes.com-SC.png);
+    background-image: url(/assets/imgs/LeeQuotes.com-SC.png);
 }
 
 #solo-img-3 {
-    background-image: url(./assets/imgs/README-gen-SC.png);
+    background-image: url(/assets/imgs/README-gen-SC.png);
 }
 
 #solo-img-4 {
-    background-image: url(./assets/imgs/employee-tracker.png);
+    background-image: url(/assets/imgs/employee-tracker.png);
 }
 
 /* CONTACT */
