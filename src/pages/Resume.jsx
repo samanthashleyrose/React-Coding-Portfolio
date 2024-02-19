@@ -41,7 +41,7 @@ export default function Resume() {
           </div>
         </div>
         <br />
-        <p id="download-resume">Click to download my resume: <a href="/src/assets/pdf/RESUME-2024-Samantha-Rose.pdf" download>Resume.pdf</a></p>
+        <p id="download-resume">Click to download my resume: <a href="/assets/pdf/RESUME-2024-Samantha-Rose.pdf" download>Resume.pdf</a></p>
       </div>
     </div>
   );
