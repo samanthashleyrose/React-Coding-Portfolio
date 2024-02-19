@@ -82,10 +82,45 @@ h3 {
 .solo-img-row-1,
 .solo-img-row-2 {
     display: inline-flex;
-    position: relative;
     justify-content: space-evenly;
     height: 250px;
     width: 100%;
+}
+
+.img-title {
+    background-color: rgb(63, 95, 66);
+    padding-left: 3%;
+    padding-bottom: 2%;
+}
+
+.img-title a {
+    color: rgb(255, 244, 226);
+    text-decoration: none;
+}
+
+.img-title a:hover {
+    color: rgb(149, 178, 137);
+}
+
+#group-img-1,
+#group-img-2 {
+    background-image: url(./assets/imgs/rooms-sc.png);
+    width: 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-color: rgb(63, 95, 66);
+    border-width: 10px;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+#group-img-1 {
+    background-image: url(./assets/imgs/rooms-sc.png);
+}
+
+#group-img-2 {
+    background-image: url(./assets/imgs/Meal2Reel-Empty-SC.png);
 }
 
 img {
@@ -96,40 +131,40 @@ img {
     border-style: double;
 }
 
-.hover-text-1 {
-    position: absolute;
-    top: 43.5%;
-    left: 27%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 244, 226, 0.863);
-    color: rgba(41, 78, 45, 0.776);
-    padding: 10px;
-    border-radius: 5px;
-    pointer-events: none;
-    z-index: 1;
-    height: 156px;
-    width: 33.1%;
-    text-align: center;
-    padding-top: 5%;
-    font-size: 1.5rem;
+.title-link {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
-.hover-text-2 {
-    position: absolute;
-    top: 43.5%;
-    left: 73%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(255, 244, 226, 0.863);
-    color: rgba(41, 78, 45, 0.776);
-    padding: 10px;
-    border-radius: 5px;
-    pointer-events: none; 
-    z-index: 1;
-    height: 156px;
-    width: 33.1%;
-    text-align: center;
-    padding-top: 5%;
-    font-size: 1.5rem;
+#solo-img-1,
+#solo-img-2,
+#solo-img-3,
+#solo-img-4 {
+    width: 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-color: rgb(63, 95, 66);
+    border-width: 10px;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+#solo-img-1 {
+    background-image: url(./assets/imgs/Mandela-Effect-Challenge.png);
+}
+
+#solo-img-2 {
+    background-image: url(./assets/imgs/LeeQuotes.com-SC.png);
+}
+
+#solo-img-3 {
+    background-image: url(./assets/imgs/README-gen-SC.png);
+}
+
+#solo-img-4 {
+    background-image: url(./assets/imgs/employee-tracker.png);
 }
 
 /* CONTACT */
