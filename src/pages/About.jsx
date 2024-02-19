@@ -11,7 +11,7 @@ export default function About() {
         <img src="/assets/imgs/pfp.png" alt="Samantha Rose Profile Photo" id="pfp" />
       </div>
       <div className="bottom-row-about">
-        <p>
+        <p id="about-me-2">
           Located on the Projects page are image icons representing projects completed during UConn's FullStack Bootcamp Course. To explore each project, click on the image's title to be brought to the deployed application. Additionally, see the GitHub link on the Contact Page for each project's repository information.<br />
           <br />
           As you navigate through my portfolio, you will observe how mastering the foundational principles and techniques of each technology translates into high-functioning performance and seamless design.

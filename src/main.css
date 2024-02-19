@@ -63,24 +63,27 @@ h2 {
     display: inline-flex;
     justify-content: space-between;
     font-family: Karla, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-left: 10%;
     margin-right: 10%;
+    text-align: justify;
 }
 
 .bottom-row-about {
     display: flex;
     font-family: Karla, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-top: 0%;
     margin-left: 10%;
     margin-right: 10%;
-    padding-bottom: 13%;
+    padding-bottom: 13%;    
+    text-align: justify;
 }
 
 #about-me {
     width: 50%;
     margin-bottom: 0%;
+    margin-right: 10%;
 }
 
 #pfp {
@@ -341,7 +344,7 @@ a {
     display: block;
     text-align: center;
     margin-bottom: 2%;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .footer-option {
@@ -384,7 +387,7 @@ a {
         width: 50%;
         border-width: 10px;
         margin-left: 22%;
-        margin-top: 0%;
+        margin-top: 2%;
     }
 
     .group-img-section,
@@ -483,7 +486,7 @@ a {
         width: 50%;
         border-width: 10px;
         margin-left: 22%;
-        margin-top: 0%;
+        margin-top: 2%;
     }
 
     .group-img-section,
@@ -559,6 +562,9 @@ a {
 
 /* M */
 @media (min-width: 601px) and (max-width: 700px) {
+    #pfp {
+        width: 40%;
+    }
 
     .top-row-about,
     .bottom-row-about {
@@ -699,8 +705,12 @@ a {
 
 /* L */
 @media (min-width: 801px) and (max-width: 900px) {
+    #about-me {
+        width: 55%;
+    }
+
     #pfp {
-        width: 35%;
+        width: 30%;
     }
 
     .group-img-section,
@@ -753,14 +763,148 @@ a {
 
 /* XL */
 @media (min-width: 901px) and (max-width: 1100px) {
+    #about-me {
+        width: 70%;
+        margin-right: 12%;
+    }
+
     #pfp {
-        width: 30%;
+        width: 28%;
     }
 }
 
 /* XXL */
-@media (min-width: 1101px) {
+@media (min-width: 1101px) and (max-width: 1200px) {
+    .top-row-about {
+        justify-content: left;
+    }
+    #about-me {
+        width: 50%;
+    }
+
+    #about-me-2 {
+        width: 50%;
+        margin-top: 3%;
+    }
+
     #pfp {
-        width: 35%;
+        width: 30%;
+        margin-top: 2%;
+    }
+}
+
+/* XXL */
+@media (min-width: 1201px) and (max-width: 1300px) {
+    .top-row-about {
+        justify-content: left;
+    }
+    #about-me {
+        width: 50%;
+    }
+
+    #about-me-2 {
+        width: 50%;
+        margin-top: -2%;
+    }
+
+    #pfp {
+        width: 30%;
+        margin-top: 2%;
+    }
+}
+
+/* XXL */
+@media (min-width: 1301px) and (max-width: 1400px) {
+    .nav-option,
+    .nav-link {
+        font-size: 1.4rem;
+    }
+    .top-row-about {
+        justify-content: left;
+    }
+    #about-me {
+        width: 50%;
+    }
+
+    #about-me-2 {
+        width: 50%;
+        margin-top: -3%;
+    }
+
+    #pfp {
+        width: 30%;
+        margin-top: 2%;
+    }
+}
+
+/* XXL */
+@media (min-width: 1401px) and (max-width: 1500px) {
+    .nav-option,
+    .nav-link {
+        font-size: 1.4rem;
+    }
+    .top-row-about {
+        justify-content: left;
+    }
+    #about-me {
+        width: 50%;
+    }
+
+    #about-me-2 {
+        width: 50%;
+        margin-top: -12%;
+    }
+
+    #pfp {
+        width: 30%;
+        margin-top: 2%;
+    }
+}
+
+/* XXL */
+@media (min-width: 1501px) and (max-width: 1600px) {
+    .nav-option,
+    .nav-link {
+        font-size: 1.5rem;
+    }
+    .top-row-about {
+        justify-content: left;
+    }
+    #about-me {
+        width: 50%;
+    }
+
+    #about-me-2 {
+        width: 50%;
+        margin-top: -12%;
+    }
+
+    #pfp {
+        width: 30%;
+        margin-top: 2%;
+    }
+}
+
+/* XXL */
+@media (min-width: 1601px) and (max-width: 1800px) {
+    .nav-option,
+    .nav-link {
+        font-size: 1.5rem;
+    }
+    .top-row-about {
+        justify-content: left;
+    }
+    #about-me {
+        width: 50%;
+    }
+
+    #about-me-2 {
+        width: 50%;
+        margin-top: -15%;
+    }
+
+    #pfp {
+        width: 30%;
+        margin-top: 2%;
     }
 }
