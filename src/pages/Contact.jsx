@@ -33,11 +33,9 @@ function ContactForm() {
         message: ''
       });
       setSuccess(true);
-      // setTimeout(() => {
-      //   setSuccess(false);
-      // }, 3000);
-    } else {
-      alert('Please fill in all required fields');
+      setTimeout(() => {
+        setSuccess(false);
+      }, 3000);
     }
   };
 
@@ -53,8 +51,7 @@ function ContactForm() {
   return (
     <div>
       <h2>Contact</h2>
-      <form onSubmit={handleSubmit} className='
-    contact-form'>
+      <form onSubmit={handleSubmit} className='contact-form'>
         <div id='name-div'>
           <label htmlFor="name" id="name-label">Name:</label>
           <input
@@ -76,6 +73,7 @@ function ContactForm() {
             name="email"
             value={formData.email}
             onChange={handleChange}
+            onBlur={handleBlur}
             required
           />
           * {errors.email && <p className="error"> required</p>}
@@ -87,6 +85,7 @@ function ContactForm() {
             name="message"
             value={formData.message}
             onChange={handleChange}
+            onBlur={handleBlur}
             required
           />
           * {errors.message && <p className="error"> required</p>}
