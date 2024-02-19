@@ -59,11 +59,20 @@ h2 {
 }
 
 /* ABOUT */
-.about-section {
-    display: flex;
+.top-row-about {
+    display: inline-flex;
     justify-content: space-between;
     font-family: Karla, sans-serif;
     font-size: 1.2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bottom-row-about {
+    display: flex;
+    font-family: Karla, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 0%;
     margin-left: 10%;
     margin-right: 10%;
     padding-bottom: 13%;
@@ -71,6 +80,7 @@ h2 {
 
 #about-me {
     width: 50%;
+    margin-bottom: 0%;
 }
 
 #pfp {
@@ -114,8 +124,11 @@ h3 {
 }
 
 #group-img-1,
-#group-img-2 {
-    background-image: url(./assets/imgs/rooms-sc.png);
+#group-img-2,
+#solo-img-1,
+#solo-img-2,
+#solo-img-3,
+#solo-img-4 {
     width: 35%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,14 +137,6 @@ h3 {
     border-width: 10px;
     border-radius: 20px;
     border-style: solid;
-}
-
-#group-img-1 {
-    background-image: url(/assets/imgs/rooms-sc.png);
-}
-
-#group-img-2 {
-    background-image: url(/assets/imgs/Meal2Reel-Empty-SC.png);
 }
 
 img {
@@ -148,18 +153,12 @@ img {
     width: 100%;
 }
 
-#solo-img-1,
-#solo-img-2,
-#solo-img-3,
-#solo-img-4 {
-    width: 35%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-color: rgb(63, 95, 66);
-    border-width: 10px;
-    border-radius: 20px;
-    border-style: solid;
+#group-img-1 {
+    background-image: url(/assets/imgs/rooms-sc.png);
+}
+
+#group-img-2 {
+    background-image: url(/assets/imgs/Meal2Reel-Empty-SC.png);
 }
 
 #solo-img-1 {
@@ -185,8 +184,7 @@ img {
     margin-top: 5%;
     margin-left: 10%;
     text-decoration: none;
-    width: 100%;
-    padding-bottom: 20%;
+    padding-bottom: 1%;
 }
 
 #name-div,
@@ -248,6 +246,24 @@ img {
     margin-left: 12%;
 }
 
+.contact-info {
+    display: block;
+    font-family: Karla, sans-serif;
+    font-size: 1.1rem;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+#a-1,
+#a-2,
+#a-3 {
+    text-decoration: none;
+    border-bottom: 0.2vw solid rgba(41, 78, 45, 0.776);
+}
+
 /* RESUME */
 .resume-section {
     font-family: Karla, sans-serif;
@@ -260,6 +276,10 @@ img {
     justify-content: space-evenly;
     width: 100%;
     font-size: 1.2rem;
+}
+
+ul {
+    padding-left: 0%;
 }
 
 li {
@@ -321,6 +341,7 @@ a {
     display: block;
     text-align: center;
     margin-bottom: 2%;
+    font-size: 1rem;
 }
 
 .footer-option {
@@ -328,4 +349,418 @@ a {
     width: 4%;
     margin-left: 1%;
     margin-right: 1%;
+}
+
+/* RESPONSIVENESS */
+
+/* XS */
+@media (min-width: 300px) and (max-width: 400px) {
+    #title {
+        font-size: 2.6rem;
+    }
+
+    #subtitle {
+        font-size: 1.4rem;
+    }
+
+    .nav-option,
+    .nav-link {
+        font-size: .95rem;
+    }
+
+    .top-row-about,
+    .bottom-row-about {
+        display: block;
+        text-align: justify;
+        font-size: .8rem;
+        padding-bottom: 0%;
+    }
+
+    #about-me {
+        width: 100%;
+    }
+
+    #pfp {
+        width: 50%;
+        border-width: 10px;
+        margin-left: 22%;
+        margin-top: 0%;
+    }
+
+    .group-img-section,
+    .solo-img-row-1,
+    .solo-img-row-2 {
+        height: 100px;
+    }
+
+    #group-img-1,
+    #group-img-2,
+    #solo-img-1,
+    #solo-img-2,
+    #solo-img-3,
+    #solo-img-4 {
+        width: 40%;
+        border-width: 5px;
+    }
+
+    .img-title a {
+        font-size: .7rem;
+    }
+
+    #name-label,
+    #email-label,
+    #message-label {
+        font-size: .8rem;
+        width: 25%;
+    }
+
+    #name,
+    #email,
+    #message {
+        width: 40%;
+    }
+
+    .error {
+        font-size: .8rem;
+    }
+
+    #submit-btn {
+        font-size: .65rem;
+        margin-left: 25%;
+    }
+
+    .contact-info {
+        font-size: .9rem;
+    }
+
+    .resume-section {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .proficiencies,
+    .details,
+    .edu-info,
+    .edu-degree {
+        font-size: .7rem;
+    }
+
+    #download-resume {
+        font-size: .85rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .footer {
+        font-size: .8rem;
+    }
+
+}
+
+/* S */
+@media (min-width: 401px) and (max-width: 600px) {
+
+    .nav-option,
+    .nav-link {
+        font-size: 1.05rem;
+    }
+
+    .top-row-about,
+    .bottom-row-about {
+        display: block;
+        text-align: justify;
+        font-size: .95rem;
+        padding-bottom: 0%;
+    }
+
+    #about-me {
+        width: 100%;
+    }
+
+    #pfp {
+        width: 50%;
+        border-width: 10px;
+        margin-left: 22%;
+        margin-top: 0%;
+    }
+
+    .group-img-section,
+    .solo-img-row-1,
+    .solo-img-row-2 {
+        height: 125px;
+    }
+
+    #group-img-1,
+    #group-img-2,
+    #solo-img-1,
+    #solo-img-2,
+    #solo-img-3,
+    #solo-img-4 {
+        width: 40%;
+        border-width: 5px;
+    }
+
+    .img-title a {
+        font-size: .7rem;
+    }
+
+    #name-label,
+    #email-label,
+    #message-label {
+        font-size: .8rem;
+        width: 20%;
+    }
+
+    #name,
+    #email,
+    #message {
+        width: 50%;
+    }
+
+    .error {
+        font-size: .8rem;
+    }
+
+    #submit-btn {
+        font-size: .7rem;
+        margin-left: 20%;
+    }
+
+    .contact-info {
+        font-size: .9rem;
+    }
+
+    .resume-section {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .proficiencies,
+    .details,
+    .edu-info,
+    .edu-degree {
+        font-size: .7rem;
+    }
+
+    #download-resume {
+        font-size: .85rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .footer {
+        font-size: .9rem;
+    }
+}
+
+/* M */
+@media (min-width: 601px) and (max-width: 700px) {
+
+    .top-row-about,
+    .bottom-row-about {
+        font-size: 1rem;
+        padding-bottom: 0%;
+    }
+
+    .group-img-section,
+    .solo-img-row-1,
+    .solo-img-row-2 {
+        height: 150px;
+    }
+
+    #group-img-1,
+    #group-img-2,
+    #solo-img-1,
+    #solo-img-2,
+    #solo-img-3,
+    #solo-img-4 {
+        border-width: 5px;
+    }
+
+    .img-title a {
+        font-size: .8rem;
+    }
+
+    #name-label,
+    #email-label,
+    #message-label {
+        font-size: .9rem;
+        width: 20%;
+    }
+
+    #name,
+    #email,
+    #message {
+        width: 50%;
+    }
+
+    .error {
+        font-size: .8rem;
+    }
+
+    #submit-btn {
+        font-size: .8rem;
+        margin-left: 20%;
+    }
+
+    .contact-info {
+        font-size: .9rem;
+    }
+
+    .resume-section {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .proficiencies,
+    .details,
+    .edu-info,
+    .edu-degree,
+    #download-resume {
+        font-size: .9rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .footer {
+        font-size: 1rem;
+    }
+}
+
+/* L */
+@media (min-width: 701px) and (max-width: 800px) {
+
+    .top-row-about,
+    .bottom-row-about {
+        font-size: 1.05rem;
+    }
+
+    #pfp {
+        width: 35%;
+    }
+
+    .group-img-section,
+    .solo-img-row-1,
+    .solo-img-row-2 {
+        height: 200px;
+    }
+
+    #group-img-1,
+    #group-img-2,
+    #solo-img-1,
+    #solo-img-2,
+    #solo-img-3,
+    #solo-img-4 {
+        border-width: 5px;
+    }
+
+    .img-title a {
+        font-size: .9rem;
+    }
+
+    #name-label,
+    #email-label,
+    #message-label {
+        font-size: .9rem;
+        width: 15%;
+    }
+
+    .error {
+        font-size: .8rem;
+    }
+
+    #submit-btn {
+        font-size: .8rem;
+        margin-left: 15%;
+    }
+
+    .contact-info {
+        font-size: 1rem;
+    }
+
+    .proficiencies,
+    .details,
+    .edu-info,
+    .edu-degree,
+    #download-resume {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+}
+
+/* L */
+@media (min-width: 801px) and (max-width: 900px) {
+    #pfp {
+        width: 35%;
+    }
+
+    .group-img-section,
+    .solo-img-row-1,
+    .solo-img-row-2 {
+        height: 225px;
+    }
+
+    #group-img-1,
+    #group-img-2,
+    #solo-img-1,
+    #solo-img-2,
+    #solo-img-3,
+    #solo-img-4 {
+        border-width: 5px;
+    }
+
+    .img-title a {
+        font-size: 1rem;
+    }
+
+    #name-label,
+    #email-label,
+    #message-label {
+        font-size: 1rem;
+        width: 15%;
+    }
+
+    #submit-btn {
+        font-size: .8rem;
+        margin-left: 15%;
+    }
+
+    .contact-info {
+        font-size: 1rem;
+    }
+
+    .proficiencies,
+    .details,
+    .edu-info,
+    .edu-degree,
+    #download-resume {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+}
+
+/* XL */
+@media (min-width: 901px) and (max-width: 1100px) {
+    #pfp {
+        width: 30%;
+    }
+}
+
+/* XXL */
+@media (min-width: 1101px) {
+    #pfp {
+        width: 35%;
+    }
 }

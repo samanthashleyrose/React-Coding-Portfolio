@@ -93,6 +93,12 @@ function ContactForm() {
         <button type="submit" id='submit-btn'>Submit</button>
         {success && <p className="success"> contact form submitted successfully!</p>}
       </form>
+      <div className='contact-info'>
+        <h3>My Personal Contact Information:</h3>
+        <p><a id="a-1">Email: samantha.rose327@gmail.com</a></p>
+        <p><a href="https://github.com/samanthashleyrose" id="a-2">GitHub: samanthashleyrose</a></p>
+        <p><a href="https://www.linkedin.com/in/samantha-rose-21a01a2a2/" id="a-3">LinkedIn: click here!</a></p>
+      </div>
     </div>
   );
 }
