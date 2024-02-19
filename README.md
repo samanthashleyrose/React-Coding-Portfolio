@@ -13,7 +13,10 @@ No installation necessary!
 
 You may begin by using the Navigation Links to bring you to your desired page or topic. On the projects page, click each projects title to be brought to the deployed sites. In addition, you may reach out to me via the contact form on the Contact Page or via my listed contact information.
 
-![Screenshot of Portfolio]()
+![Screenshot of Portfolio - About Page](./public/assets/imgs/portfolio-SC-ABOUT.png)
+![Screenshot of Portfolio - Projects Page](./public/assets/imgs/portfolio-SC-PROJECTS.png)
+![Screenshot of Portfolio - Contact Page](./public/assets/imgs/portfolio-SC-CONTACT.png)
+![Screenshot of Portfolio - Resume Page](./public/assets/imgs/portfolio-SC-RESUME.png)
 
 ## Credits
 
