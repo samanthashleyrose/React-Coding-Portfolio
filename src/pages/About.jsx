@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div>
-      <h2>About</h2>
+      <h2>About Me</h2>
       <div className="about-section">
       <p id="about-me">With a professional background in customer service and manual labor within a warehouse setting, I have recently transitioned into the realm of web development. This career change signifies a necessary step in my professional journey. Embracing coding as a new endeavor, I approach it with both eagerness to learn and a determination to excel. <br/>
       <br/>
