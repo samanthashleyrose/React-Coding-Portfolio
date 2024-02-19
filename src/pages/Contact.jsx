@@ -13,6 +13,8 @@ function ContactForm() {
     message: false
   });
 
+  const [success, setSuccess] = useState(false);
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -25,6 +27,15 @@ function ContactForm() {
     const formIsValid = Object.values(formData).every(value => value.trim() !== '');
     if (formIsValid) {
       console.log('Form submitted:', formData);
+      setFormData({
+        name: '',
+        email: '',
+        message: ''
+      });
+      setSuccess(true);
+      // setTimeout(() => {
+      //   setSuccess(false);
+      // }, 3000);
     } else {
       alert('Please fill in all required fields');
     }
@@ -32,12 +43,11 @@ function ContactForm() {
 
   const handleBlur = (e) => {
     const fieldName = e.target.name;
-    if (!formData[fieldName]) {
-      setErrors({
-        ...errors,
-        [fieldName]: true
-      });
-    }
+    const fieldValue = e.target.value.trim();
+    setErrors({
+      ...errors,
+      [fieldName]: fieldValue === ''
+    });
   };
 
   return (
@@ -82,6 +92,7 @@ function ContactForm() {
           * {errors.message && <p className="error"> required</p>}
         </div>
         <button type="submit" id='submit-btn'>Submit</button>
+        {success && <p className="success"> contact form submitted successfully!</p>}
       </form>
     </div>
   );
