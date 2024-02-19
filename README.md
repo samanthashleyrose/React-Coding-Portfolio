@@ -11,9 +11,7 @@ No installation necessary!
 
 ## Usage
 
-You may begin by using the Navigation Links to bring you to your desired page or topic. Hover over each image on the projects page to view each projects title; the click the "View" link to be brought to the deployed sites. 
-
-In addition, a link to my GitHub Portfolio is attached to both the GitHub icon at the bottom of the page. You may reach me by sending me a message on the Contact Page.
+You may begin by using the Navigation Links to bring you to your desired page or topic. On the projects page, click each projects title to be brought to the deployed sites. In addition, you may reach out to me via the contact form on the Contact Page or via my listed contact information.
 
 ![Screenshot of Portfolio]()
 
@@ -26,8 +24,9 @@ In addition, a link to my GitHub Portfolio is attached to both the GitHub icon a
 #### Technologies Used:
 <li><a href="https://chat.openai.com/">ChatGPT</a></li>
 <li><a href="https://nodejs.org/en/">Node.js</a></li>
-
-#### Documentation Used:
+<li><a href="https://react.dev/">React.js</a></li>
+<li><a href="https://www.netlify.com/">Netlify</a></li>
+<li><a href="https://icons8.com/icons/set/gmail">icons8.com</a></li>
 
 ## License
 
