@@ -13,7 +13,7 @@ export default function Projects() {
         </div>
         <div id='group-img-2'>
           <div className='img-title'>
-            <a href="https://samanthashleyrose.github.io/Meal2Reel/">Meal2Reel</a>
+            <a href="https://samanthashleyrose.github.io/Meal2Reel/">view Meal2Reel</a>
             <a href="https://github.com/samanthashleyrose/Meal2Reel">view repo</a>
           </div>
         </div>
@@ -22,13 +22,13 @@ export default function Projects() {
       <div className="solo-img-row-1">
         <div id='solo-img-1'>
           <div className='img-title'>
-            <a href="https://samanthashleyrose.github.io/Mandela-Effect-Challenge/">Mandela Effect Challenge</a>
+            <a href="https://samanthashleyrose.github.io/Mandela-Effect-Challenge/">view Mandela Effect Challenge</a>
             <a href="https://github.com/samanthashleyrose/Mandela-Effect-Challenge">view repo</a>
           </div>
         </div>
         <div id='solo-img-2'>
           <div className='img-title'>
-            <a href="https://samanthashleyrose.github.io/LeeQuotes.com/">LeeQuotes.com</a>
+            <a href="https://samanthashleyrose.github.io/LeeQuotes.com/">view LeeQuotes.com</a>
             <a href="https://github.com/samanthashleyrose/LeeQuotes.com">view repo</a>
           </div>
         </div>
@@ -38,13 +38,13 @@ export default function Projects() {
       <div className="solo-img-row-2">
         <div id='solo-img-3'>
           <div className='img-title'>
-            <a href="https://github.com/samanthashleyrose/README-generator">README Generator</a>
+            <a href="https://github.com/samanthashleyrose/README-generator">view README Generator</a>
             <a href="https://github.com/samanthashleyrose/README-generator">view repo</a>
           </div>
         </div>
         <div id='solo-img-4'>
           <div className='img-title'>
-            <a href="https://github.com/samanthashleyrose/Employee-Tracker">Employee Tracker Database</a>
+            <a href="https://github.com/samanthashleyrose/Employee-Tracker">view Employee Tracker Database</a>
             <a href="https://github.com/samanthashleyrose/Employee-Tracker">view repo</a>
           </div>
         </div>
