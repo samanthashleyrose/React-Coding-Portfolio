@@ -501,10 +501,15 @@ a {
         font-size: 1.2rem;
     }
 
-    .footer {
+    #a-1,
+    #a-2,
+    #a-3 {
         font-size: .8rem;
     }
 
+    .footer {
+        font-size: .8rem;
+    }
 }
 
 /* S */
