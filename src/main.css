@@ -124,7 +124,7 @@ h3 {
 .solo-img-row-2 {
     display: inline-flex;
     justify-content: space-evenly;
-    height: 275px;
+    height: 300px;
     width: 100%;
 }
 
@@ -154,7 +154,7 @@ h3 {
 #solo-img-2,
 #solo-img-3,
 #solo-img-4 {
-    width: 35%;
+    width: 40%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -165,7 +165,6 @@ h3 {
 }
 
 img {
-    width: 35%;
     border-color: rgba(41, 78, 45, 0.776);
     border-width: 15px;
     border-radius: 20px;
@@ -424,22 +423,28 @@ a {
     .group-img-section,
     .solo-img-row-1,
     .solo-img-row-2 {
-        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
     }
 
     #group-img-1,
     #group-img-2,
     #solo-img-1,
-    #solo-img-2,
     #solo-img-3,
     #solo-img-4 {
-        width: 40%;
+        width: 80%;
+        height: 300px;
         border-width: 5px;
+        margin-bottom: 5%;
     }
 
-    .img-title {
-        padding-top: 4%;
-        padding-bottom: 2%;
+    #solo-img-2 {
+        width: 80%;
+        height: 300px;
+        border-width: 5px;
+        margin-bottom: -5%;
     }
 
     .img-title a {
@@ -532,22 +537,28 @@ a {
     .group-img-section,
     .solo-img-row-1,
     .solo-img-row-2 {
-        height: 125px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
     }
 
     #group-img-1,
     #group-img-2,
     #solo-img-1,
-    #solo-img-2,
     #solo-img-3,
     #solo-img-4 {
-        width: 40%;
+        width: 80%;
+        height: 300px;
         border-width: 5px;
+        margin-bottom: 5%;
     }
 
-    .img-title {
-        padding-top: 4%;
-        padding-bottom: 2%;
+    #solo-img-2 {
+        width: 80%;
+        height: 300px;
+        border-width: 5px;
+        margin-bottom: -5%;
     }
 
     .img-title a {
@@ -624,7 +635,7 @@ a {
     .group-img-section,
     .solo-img-row-1,
     .solo-img-row-2 {
-        height: 150px;
+        height: 200px;
     }
 
     #group-img-1,
@@ -986,6 +997,7 @@ a {
         width: 30%;
         margin-top: 2%;
     }
+
     #contact-page {
         background-size: 20%;
         background-position-x: 80%;
@@ -1018,6 +1030,7 @@ a {
         width: 30%;
         margin-top: 2%;
     }
+
     #contact-page {
         background-size: 18%;
         background-position-x: 80%;
