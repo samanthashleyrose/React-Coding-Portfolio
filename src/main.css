@@ -91,6 +91,12 @@ h2 {
     text-align: justify;
 }
 
+#projects-link,
+#contact-link {
+    color: rgba(28, 59, 31, 0.475);
+    text-decoration: none;
+}
+
 #about-me {
     width: 50%;
     margin-bottom: 0%;
