@@ -49,7 +49,7 @@ function ContactForm() {
   };
 
   return (
-    <div>
+    <div id='contact-page'>
       <h2>Contact</h2>
       <form onSubmit={handleSubmit} className='contact-form'>
         <div id='name-div'>

@@ -15,7 +15,7 @@ main {
 }
 
 #subtitle {
-    color: rgba(125, 151, 102, 0.874);
+    color: rgb(255, 244, 226);
     margin-top: 0%;
     margin-bottom: 4%;
 }
@@ -59,6 +59,17 @@ h2 {
 }
 
 /* ABOUT */
+.page-header {
+    display: inline-flex;
+}
+
+#peace-lily {
+    border: none;
+    height: 10%;
+    width: 20%;
+
+}
+
 .top-row-about {
     display: inline-flex;
     justify-content: space-between;
@@ -186,6 +197,15 @@ img {
 }
 
 /* CONTACT */
+#contact-page {
+    background-image: url(../public/assets/imgs/peace_lily.png);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position-x: 85%;
+    background-position-y: 10%;
+}
+
 .contact-form {
     display: block;
     font-family: Karla, sans-serif;
@@ -420,6 +440,10 @@ a {
         font-size: .7rem;
     }
 
+    #contact-page {
+        background-image: none;
+    }
+
     #name-label,
     #email-label,
     #message-label {
@@ -524,6 +548,10 @@ a {
         font-size: .7rem;
     }
 
+    #contact-page {
+        background-image: none;
+    }
+
     #name-label,
     #email-label,
     #message-label {
@@ -606,6 +634,10 @@ a {
         font-size: .8rem;
     }
 
+    #contact-page {
+        background-image: none;
+    }
+
     #name-label,
     #email-label,
     #message-label {
@@ -685,6 +717,12 @@ a {
         font-size: .9rem;
     }
 
+    #contact-page {
+        background-size: 35%;
+        background-position-x: 90%;
+        background-position-y: 20%;
+    }
+
     #name-label,
     #email-label,
     #message-label {
@@ -747,6 +785,11 @@ a {
         font-size: 1rem;
     }
 
+    #contact-page {
+        background-position-x: 90%;
+        background-position-y: 20%;
+    }
+
     #name-label,
     #email-label,
     #message-label {
@@ -786,6 +829,11 @@ a {
     #pfp {
         width: 28%;
     }
+
+    #contact-page {
+        background-size: 25%;
+        background-position-y: 20%;
+    }
 }
 
 /* XXL */
@@ -807,6 +855,11 @@ a {
         width: 30%;
         margin-top: 2%;
     }
+
+    #contact-page {
+        background-size: 25%;
+        background-position-y: 15%;
+    }
 }
 
 /* XXL */
@@ -827,6 +880,12 @@ a {
     #pfp {
         width: 30%;
         margin-top: 2%;
+    }
+
+    #contact-page {
+        background-size: 20%;
+        background-position-x: 80%;
+        background-position-y: 15%;
     }
 }
 
@@ -855,6 +914,12 @@ a {
         width: 30%;
         margin-top: 2%;
     }
+
+    #contact-page {
+        background-size: 20%;
+        background-position-x: 80%;
+        background-position-y: 15%;
+    }
 }
 
 /* XXL */
@@ -881,6 +946,12 @@ a {
     #pfp {
         width: 30%;
         margin-top: 2%;
+    }
+
+    #contact-page {
+        background-size: 20%;
+        background-position-x: 80%;
+        background-position-y: 15%;
     }
 }
 
@@ -909,6 +980,11 @@ a {
         width: 30%;
         margin-top: 2%;
     }
+    #contact-page {
+        background-size: 20%;
+        background-position-x: 80%;
+        background-position-y: 15%;
+    }
 }
 
 /* XXL */
@@ -935,5 +1011,10 @@ a {
     #pfp {
         width: 30%;
         margin-top: 2%;
+    }
+    #contact-page {
+        background-size: 18%;
+        background-position-x: 80%;
+        background-position-y: 15%;
     }
 }
