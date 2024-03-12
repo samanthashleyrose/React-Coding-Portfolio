@@ -121,7 +121,8 @@ h3 {
 
 .group-img-section,
 .solo-img-row-1,
-.solo-img-row-2 {
+.solo-img-row-2,
+.solo-img-row-3 {
     display: inline-flex;
     justify-content: space-evenly;
     height: 300px;
@@ -153,7 +154,9 @@ h3 {
 #solo-img-1,
 #solo-img-2,
 #solo-img-3,
-#solo-img-4 {
+#solo-img-4,
+#solo-img-5,
+#solo-img-6  {
     width: 40%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,7 +189,7 @@ img {
 }
 
 #solo-img-1 {
-    background-image: url(/assets/imgs/Mandela-Effect-Challenge.png);
+    background-image: url(/assets/imgs/Genify-login-sc.png);
 }
 
 #solo-img-2 {
@@ -199,6 +202,14 @@ img {
 
 #solo-img-4 {
     background-image: url(/assets/imgs/employee-tracker.png);
+}
+
+#solo-img-5 {
+    background-image: url(/assets/imgs/Mandela-Effect-Challenge.png);
+}
+
+#solo-img-6 {
+    background-image: url(/assets/imgs/peace-lily2.png);
 }
 
 /* CONTACT */
@@ -422,7 +433,8 @@ a {
 
     .group-img-section,
     .solo-img-row-1,
-    .solo-img-row-2 {
+    .solo-img-row-2,
+    .solo-img-row-3 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -433,7 +445,9 @@ a {
     #group-img-2,
     #solo-img-1,
     #solo-img-3,
-    #solo-img-4 {
+    #solo-img-4,
+    #solo-img-5,
+    #solo-img-6 {
         width: 80%;
         height: 300px;
         border-width: 5px;
@@ -541,7 +555,8 @@ a {
 
     .group-img-section,
     .solo-img-row-1,
-    .solo-img-row-2 {
+    .solo-img-row-2,
+    .solo-img-row-3 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -552,7 +567,9 @@ a {
     #group-img-2,
     #solo-img-1,
     #solo-img-3,
-    #solo-img-4 {
+    #solo-img-4,
+    #solo-img-5,
+    #solo-img-6 {
         width: 80%;
         height: 300px;
         border-width: 5px;
@@ -639,7 +656,8 @@ a {
 
     .group-img-section,
     .solo-img-row-1,
-    .solo-img-row-2 {
+    .solo-img-row-2,
+    .solo-img-row-3 {
         height: 200px;
     }
 
@@ -648,7 +666,9 @@ a {
     #solo-img-1,
     #solo-img-2,
     #solo-img-3,
-    #solo-img-4 {
+    #solo-img-4,
+    #solo-img-5,
+    #solo-img-6 {
         border-width: 5px;
     }
 
@@ -722,7 +742,8 @@ a {
 
     .group-img-section,
     .solo-img-row-1,
-    .solo-img-row-2 {
+    .solo-img-row-2,
+    .solo-img-row-3 {
         height: 200px;
     }
 
@@ -731,7 +752,9 @@ a {
     #solo-img-1,
     #solo-img-2,
     #solo-img-3,
-    #solo-img-4 {
+    #solo-img-4,
+    #solo-img-5,
+    #solo-img-6 {
         border-width: 5px;
     }
 
@@ -790,7 +813,8 @@ a {
 
     .group-img-section,
     .solo-img-row-1,
-    .solo-img-row-2 {
+    .solo-img-row-2,
+    .solo-img-row-3 {
         height: 225px;
     }
 
@@ -799,7 +823,9 @@ a {
     #solo-img-1,
     #solo-img-2,
     #solo-img-3,
-    #solo-img-4 {
+    #solo-img-4,
+    #solo-img-5,
+    #solo-img-6 {
         border-width: 5px;
     }
 

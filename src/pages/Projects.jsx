@@ -22,8 +22,8 @@ export default function Projects() {
       <div className="solo-img-row-1">
         <div id='solo-img-1'>
           <div className='img-title'>
-            <a href="https://samanthashleyrose.github.io/Mandela-Effect-Challenge/">view Mandela Effect Challenge</a>
-            <a href="https://github.com/samanthashleyrose/Mandela-Effect-Challenge">view repo</a>
+            <a href="https://genify-18f212542b9b.herokuapp.com/">view Genify</a>
+            <a href="https://github.com/samanthashleyrose/Genify">view repo</a>
           </div>
         </div>
         <div id='solo-img-2'>
@@ -46,6 +46,21 @@ export default function Projects() {
           <div className='img-title'>
             <a href="https://github.com/samanthashleyrose/Employee-Tracker">view Employee Tracker Database</a>
             <a href="https://github.com/samanthashleyrose/Employee-Tracker">view repo</a>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div className="solo-img-row-3">
+        <div id='solo-img-5'>
+          <div className='img-title'>
+          <a href="https://samanthashleyrose.github.io/Mandela-Effect-Challenge/">view Mandela Effect Challenge</a>
+            <a href="https://github.com/samanthashleyrose/Mandela-Effect-Challenge">view repo</a>
+          </div>
+        </div>
+        <div id='solo-img-6'>
+          <div className='img-title'>
+            <a href="https://github.com/samanthashleyrose">view repo</a>
           </div>
         </div>
       </div>
