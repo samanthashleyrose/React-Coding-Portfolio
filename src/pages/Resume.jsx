@@ -42,6 +42,9 @@ export default function Resume() {
         </div>
         <br />
         <p id="download-resume">Click to download my resume: <a href="/assets/pdf/RESUME-Samantha-Rose.pdf" download>Resume.pdf</a></p>
+        <div id="cert-container">
+        <img src="/assets/imgs/FullStackCertSC.png" alt="Full Stack Certificate Screenshot" id="cert-sc" />
+        </div>
       </div>
     </div>
   );

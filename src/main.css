@@ -366,6 +366,16 @@ a {
     color: rgba(41, 78, 45, 0.776);
 }
 
+#cert-container {
+    display: flex;
+    justify-content: center;
+}
+
+#cert-sc {
+    height: 100%;
+    width: 50%;
+}
+
 /* ERROR PAGE */
 #oops {
     justify-content: center;
