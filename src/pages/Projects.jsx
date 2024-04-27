@@ -60,6 +60,7 @@ export default function Projects() {
         </div>
         <div id='solo-img-6'>
           <div className='img-title'>
+          <a href="https://github.com/samanthashleyrose">New Work Coming Soon</a>
             <a href="https://github.com/samanthashleyrose">view repo</a>
           </div>
         </div>
