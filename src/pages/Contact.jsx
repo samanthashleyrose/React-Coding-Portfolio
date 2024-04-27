@@ -51,7 +51,7 @@ function ContactForm() {
   return (
     <div id='contact-page'>
       <h2>Contact</h2>
-      <form onSubmit={handleSubmit} className='contact-form'>
+      {/* <form onSubmit={handleSubmit} className='contact-form'>
         <div id='name-div'>
           <label htmlFor="name" id="name-label">Name:</label>
           <input
@@ -92,7 +92,7 @@ function ContactForm() {
         </div>
         <button type="submit" id='submit-btn'>Submit</button>
         {success && <p className="success"> contact form submitted successfully!</p>}
-      </form>
+      </form> */}
       <div className='contact-info'>
         <h3>My Personal Contact Information:</h3>
         <p><a id="a-1">Email: samantha.rose327@gmail.com</a></p>
